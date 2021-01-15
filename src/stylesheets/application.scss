@@ -1,1 +1,16 @@
-@import './navbar.scss'
+@import './variables.scss';
+@import './navbar.scss';
+@import './footer.scss';
+@import './fourohfour.scss';
+
+
+.fab, .fas{
+    color: $secondary-color;
+    font-size: 34px;
+    padding-left: 18px;
+}
+
+a, a:hover, a:active, a:visited{
+    color: $secondary-color;
+    text-decoration: none;
+}

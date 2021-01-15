@@ -1,4 +1,18 @@
 .navbar{
+    display: flex;
     border-bottom: 1px solid black;
     box-shadow: 0 2px 4px -2px grey;
+    justify-content: space-between;
+    align-items: center;
+
+    label{
+        color: $primary_color;
+        font-size: 35px;
+    }
+
+    &__left{
+        a{
+            padding-left: 3px;
+        }
+    }
 }

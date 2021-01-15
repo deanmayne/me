@@ -1,0 +1,22 @@
+.fourohfour{
+    display: grid;
+
+    h1{
+        color: $primary-color;
+        font-size: 50px;
+        place-self: center;
+        border: 1px solid black;
+        padding: 40px;
+        border-radius: 20px;
+        text-align: center;
+
+        p {
+            a{
+                color: inherit;
+                text-decoration: underline;
+            }
+        }
+
+    }
+
+}
