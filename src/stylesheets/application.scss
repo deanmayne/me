@@ -4,7 +4,7 @@
 @import './fourohfour.scss';
 
 body{
-    font-family: $primary-font;
+    font-family: $body-font;
 }
 
 
@@ -17,4 +17,8 @@ body{
 a, a:hover, a:active, a:visited{
     color: $secondary-color;
     text-decoration: none;
+}
+
+h1, h2, h3, h4{
+    font-family: $header-font;
 }
