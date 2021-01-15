@@ -1,20 +1,23 @@
-@import './variables.scss';
+@import "./variables.scss";
 
-.navbar{
-    display: flex;
-    border-bottom: 1px solid black;
-    box-shadow: 0 2px 4px -2px grey;
-    justify-content: space-between;
-    align-items: center;
+.navbar {
+  display: flex;
+  border-bottom: 1px solid black;
+  box-shadow: 0 2px 4px -2px grey;
+  justify-content: space-between;
+  align-items: center;
 
-    label{
-        color: $primary_color;
-        font-size: 35px;
+  label {
+    color: $primary_color;
+    font-size: 35px;
+  }
+
+  &__left {
+    a {
+      border: 1px solid $secondary-color;
+      border-radius: 10px;
+      padding: 6px;
+      margin-left: 3px;
     }
-
-    &__left{
-        a{
-            padding-left: 3px;
-        }
-    }
+  }
 }
