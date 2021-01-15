@@ -3,6 +3,10 @@
 @import './footer.scss';
 @import './fourohfour.scss';
 
+body{
+    font-family: $primary-font;
+}
+
 
 .fab, .fas{
     color: $secondary-color;
