@@ -1,19 +1,31 @@
-import React from 'react';
+import React from "react";
 
 const Projects = () => (
   <div className="project-grid">
-    <div className="project-grid__tile">
-      <img src="http://marcheauxpuces.herokuapp.com" alt="MarcheAuxPuces" />
-      <span className="project-grid__tile--name">Marché aux Puces</span>
-    </div>
-    <div className="project-grid__tile">
-      <img src="http://daya-mern.herokuapp.com" alt="Daya" />
-      <span className="project-grid__tile--name">Daya</span>
-    </div>
-    <div className="project-grid__tile">
-      <img src="http://deanmayne.github.io/waveduck" alt="WaveDuck" />
-      <span className="project-grid__tile--name">WaveDuck</span>
-    </div>
+    <a
+      className="project-grid__tile"
+      href="http://marcheauxpuces.herokuapp.com"
+      className="project-grid__tile--name"
+    >
+      <img src="../../images/marcheauxpuces.png" alt="MarcheAuxPuces" />
+      Marché aux Puces
+    </a>
+    <a
+      className="project-grid__tile"
+      href="http://daya-mern.herokuapp.com"
+      className="project-grid__tile--name"
+    >
+      <img src="../../images/daya.jpg" alt="Daya" />
+      DAYA
+    </a>
+    <a
+      className="project-grid__tile"
+      href="http://deanmayne.github.io/waveduck"
+      className="project-grid__tile--name"
+    >
+      <img src="../../images/waveduck.png" alt="WaveDuck" />
+      WaveDuck
+    </a>
   </div>
 );
 

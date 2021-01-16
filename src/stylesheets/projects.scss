@@ -1,11 +1,24 @@
-@import './variables.scss';
+@import "./variables.scss";
 
-.project-grid{
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 10px;
+
+  a {
+    color: $secondary-color;
     display: grid;
+    justify-items: center;
+    row-gap: 8px;
 
-    &__tile{
-        display: grid;
-        color: $secondary-color;
-        
+    &:hover {
+      color: $primary-color;
+      font-weight: 700;
     }
+
+    img {
+      max-width: 400px;
+      max-height: 300px;
+    }
+  }
 }
