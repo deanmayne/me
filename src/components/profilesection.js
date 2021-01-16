@@ -9,6 +9,7 @@ const ProfileSection = () => (
       hunt for a backend or full-stack job ! Technologies and skills I have in
       my toolbelt include Javascript, Ruby on Rails, React/Redux, the MERN
       Stack, R, and many others you can find on my{" "}
+      <a href="http://www.linkedin.com/in/deanmayne">LinkedIn</a> or{" "}
       <a href="http://www.github.com/deanmayne">Github</a>, along with my past
       and current projects !
     </p>
