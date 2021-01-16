@@ -9,6 +9,7 @@ const Navbar = () => (
     <div className="navbar__left">
       <a href="http://www.linkedin.com/in/deanmayne">LinkedIn</a>
       <a href="http://www.github.com/deanmayne">Github</a>
+      <a href="http://www.angel.co/deanmayne">AngelList</a>
     </div>
   </div>
 );
