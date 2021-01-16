@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+.profile {
+  display: flex;
+  max-width: 800px;
+  max-height: 800px;
+  justify-items: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+
+  &__headshot {
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 10px;
+  }
+
+  &__bio{
+    margin-left: 8px;
+    max-width: 400px;
+
+    a{
+        text-decoration: underline;
+        color: inherit;
+    }
+  }
+}

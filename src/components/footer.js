@@ -4,7 +4,7 @@ import "../stylesheets/application.scss";
 const Footer = () => (
   <footer>
     <a href="mailto:deancmayne@gmail.com">
-      <i class="fas fa-envelope"></i>
+      <i className="fas fa-envelope"></i>
     </a>
     <a href="https://github.com/deanmayne/">
       <i className="fab fa-github"></i>
