@@ -1,9 +1,8 @@
-@import './variables.scss';
+@import "./variables.scss";
 
-footer{
-    display: flex;
-    justify-content: center;
-    border-top: 1px solid $secondary-color;
-    margin-top: 8px;
-
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid $secondary-color;
+  margin-top: 8px;
 }
