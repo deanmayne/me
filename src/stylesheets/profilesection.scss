@@ -20,12 +20,18 @@
     margin-left: 8px;
     max-width: 500px;
 
+    span{
+        color: $primary-color;
+        font-weight: 700;
+    }
+
     a{
         text-decoration: underline;
         color: inherit;
 
         &:hover{
             color: $primary-color;
+            font-weight: 700;
         }
     }
 
