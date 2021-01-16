@@ -15,11 +15,17 @@
 
   &__left {
     a {
-      border: 1px solid $secondary-color;
-      border-radius: 10px;
+                border: 1px solid $secondary_color;
+        border-radius: 10px;
       padding: 6px;
       margin-left: 3px;
       margin-right: 3px;
+
+      &:hover {
+        background-color: $primary_color;
+        color: white;
+        transition: .5s ease-in-out;
+      }
     }
   }
 }

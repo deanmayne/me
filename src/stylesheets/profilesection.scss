@@ -23,6 +23,12 @@
     a{
         text-decoration: underline;
         color: inherit;
+
+        &:hover{
+            color: $primary-color;
+        }
     }
+
+    
   }
 }
