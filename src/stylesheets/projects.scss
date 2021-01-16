@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+.project-grid{
+    display: grid;
+
+    &__tile{
+        display: grid;
+        color: $secondary-color;
+        
+    }
+}
