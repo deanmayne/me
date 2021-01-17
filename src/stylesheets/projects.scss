@@ -2,23 +2,41 @@
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   margin-top: 10px;
+  justify-content: center;
+  row-gap: 10px;
 
-  a {
+  &__tile {
+    display: flex;
     color: $secondary-color;
-    display: grid;
-    justify-items: center;
+    justify-content: center;
+    align-content: center;
     row-gap: 8px;
+    max-width: 600px;
+    border-bottom: 1px solid $secondary-color;
 
+
+    &--left{
+        display:grid;
+        justify-items: center;
+        row-gap: 8px;
+    
     &:hover {
       color: $primary-color;
       font-weight: 700;
     }
 
-    img {
+    &--image {
       max-width: 400px;
       max-height: 300px;
     }
+}
+
+&--description{
+    display: grid;
+    align-content: center;
+    margin-left: 3px;
+}
   }
+
 }

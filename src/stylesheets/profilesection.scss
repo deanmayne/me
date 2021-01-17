@@ -2,12 +2,9 @@
 
 .profile {
   display: flex;
-  max-width: 1000px;
-  max-height: 900px;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
-  margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
 
   &__headshot {
     max-width: 700px;
