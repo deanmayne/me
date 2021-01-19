@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 const ProfileSection = () => (
   <div className="profile">
@@ -14,7 +15,7 @@ const ProfileSection = () => (
       many others you can find on my{" "}
       <a href="http://www.linkedin.com/in/deanmayne">LinkedIn</a> or{" "}
       <a href="http://www.github.com/deanmayne">Github</a>, along with my past
-      and current <a href="http://deanmayne.com/projects/">projects</a> !
+      and current <Link to="/projects">projects</Link> !
     </p>
   </div>
 );
