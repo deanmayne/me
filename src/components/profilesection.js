@@ -5,7 +5,7 @@ const ProfileSection = () => (
     <img className="profile__headshot" src="./Headshot.jpg" alt="headshot" />
     <p className="profile__bio">
       Hi I'm <span>Dean</span> ! I am a newly minted{" "}
-      <span>Software Engineer</span> who spent a lot of time in my past life in
+      <span>Software Engineer</span> who spent a lot of time in my past life
       working in the fashion industry. Now I'm on the hunt for a{" "}
       <span>backend</span> or <span>full-stack</span> job ! Technologies and
       skills I have in my toolbelt include <span>Javascript</span>,{" "}
@@ -14,7 +14,7 @@ const ProfileSection = () => (
       many others you can find on my{" "}
       <a href="http://www.linkedin.com/in/deanmayne">LinkedIn</a> or{" "}
       <a href="http://www.github.com/deanmayne">Github</a>, along with my past
-      and current projects !
+      and current <a href="http://deanmayne.com/projects/">projects</a> !
     </p>
   </div>
 );
