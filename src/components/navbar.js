@@ -9,8 +9,12 @@ const Navbar = () => (
     </a>
     <div className="navbar__left">
       <Link to="/projects">Projects</Link>
-      <a href="http://www.github.com/deanmayne">Github</a>
-      <a href="http://www.angel.co/u/deanmayne">AngelList</a>
+      <a href="http://www.github.com/deanmayne" target="_blank">
+        Github
+      </a>
+      <a href="http://www.angel.co/u/deanmayne" target="_blank">
+        AngelList
+      </a>
     </div>
   </div>
 );

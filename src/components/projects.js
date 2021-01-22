@@ -29,11 +29,15 @@ const Projects = () => (
   <div className="project-grid">
     {PROJECTS.map((project) => (
       <div className="project-grid__tile">
-        <a className='project-grid__tile--image' href={project.url}>
+        <a
+          className="project-grid__tile--image"
+          href={project.url}
+          target="_blank"
+        >
           <img src={project.img_url} alt={project.title} />
         </a>
         <div className="project-grid__tile--text">
-          <a href={project.url}>
+          <a href={project.url} target="_blank">
             <h2>{project.title}</h2>
           </a>
           <p>{project.description}</p>
