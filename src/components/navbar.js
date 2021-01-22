@@ -4,9 +4,9 @@ import "../stylesheets/application.scss";
 
 const Navbar = () => (
   <div className="navbar">
-    <a href="http://www.deanmayne.com">
+    <Link to="/">
       <h1>Dean Mayne</h1>
-    </a>
+    </Link>
     <div className="navbar__left">
       <Link to="/projects">Projects</Link>
       <a href="http://www.github.com/deanmayne" target="_blank">
