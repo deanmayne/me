@@ -1,63 +1,45 @@
 import React from "react";
 
+const PROJECTS = [
+  {
+    title: "Marché aux Puces",
+    url: "http://marcheauxpuces.herokuapp.com",
+    description:
+      "A full-stack clone of the popular e-commerce site Etsy employing a Ruby on Rails backend, Javascript, and React/Redux frontend.",
+    img_url: "../../images/marcheauxpuces.png",
+  },
+
+  {
+    title: "DAYA",
+    url: "http://daya-mern.herokuapp.com",
+    description:
+      "A more social take on the tradtional calendar built using the MERN stack.",
+    img_url: "../../images/daya.jpg",
+  },
+  {
+    title: "WaveDuck",
+    url: "http://deanmayne.github.io/waveduck",
+    description:
+      'A digital rendition of the classic "wave box" featuring themed ducks.',
+    img_url: "../../images/waveduck.png",
+  },
+];
+
 const Projects = () => (
   <div className="project-grid">
-    <div className="project-grid__tile">
-      <a
-        className="project-grid__tile--left"
-        href="http://marcheauxpuces.herokuapp.com"
-      >
-        <img
-          className="project-grid__tile--left--image"
-          src="../../images/marcheauxpuces.png"
-          alt="MarcheAuxPuces"
-        />
-        <span className="project-grid__tile--left--name">Marché aux Puces</span>{" "}
-      </a>
-      <span className="project-grid__tile--description">
-        <p>
-          A full-stack clone of the popular e-commerce site Etsy employing a
-          Ruby on Rails backend, Javascript, and React/Redux frontend.
-        </p>
-      </span>
-    </div>
-    <div className="project-grid__tile">
-      <span className="project-grid__tile--description">
-        <p>
-          A more social take on the tradtional calendar built using the MERN
-          stack.
-        </p>
-      </span>
-      <a
-        className="project-grid__tile--left"
-        href="http://daya-mern.herokuapp.com"
-      >
-        <img
-          className="project-grid__tile--left--image"
-          src="../../images/daya.jpg"
-          alt="DAYA"
-        />
-        <span className="project-grid__tile--left--name">DAYA</span>
-      </a>
-    </div>
-    <div className="project-grid__tile">
-      <a
-        className="project-grid__tile--left"
-        href="http://deanmayne.github.io/waveduck"
-      >
-        <img
-          className="project-grid__tile--left--image"
-          src="../../images/waveduck.png"
-          alt="MarcheAuxPuces"
-        />
-        <span className="project-grid__tile--left--name">WaveDuck</span>
-      </a>
-      <span className="project-grid__tile--description">
-        <p>
-          A digital rendition of the classic "wave box" featuring themed ducks.{" "}
-        </p>
-      </span>
-    </div>
+    {PROJECTS.map((project) => (
+      <div className="project-grid__tile">
+        <a className='project-grid__tile--image' href={project.url}>
+          <img src={project.img_url} alt={project.title} />
+        </a>
+        <div className="project-grid__tile--text">
+          <a href={project.url}>
+            <h2>{project.title}</h2>
+          </a>
+          <p>{project.description}</p>
+        </div>
+      </div>
+    ))}
   </div>
 );
 
