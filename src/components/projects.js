@@ -1,4 +1,5 @@
 import React from "react";
+import Technologies from "./technologies";
 
 const PROJECTS = [
   {
@@ -26,25 +27,28 @@ const PROJECTS = [
 ];
 
 const Projects = () => (
-  <div className="project-grid">
-    {PROJECTS.map((project) => (
-      <div className="project-grid__tile">
-        <a
-          className="project-grid__tile--image"
-          href={project.url}
-          target="_blank"
-        >
-          <img src={project.img_url} alt={project.title} />
-        </a>
-        <div className="project-grid__tile--text">
-          <a href={project.url} target="_blank">
-            <h2>{project.title}</h2>
+  <React.Fragment>
+    <div className="project-grid">
+      {PROJECTS.map((project) => (
+        <div className="project-grid__tile">
+          <a
+            className="project-grid__tile--image"
+            href={project.url}
+            target="_blank"
+          >
+            <img src={project.img_url} alt={project.title} />
           </a>
-          <p>{project.description}</p>
+          <div className="project-grid__tile--text">
+            <a href={project.url} target="_blank">
+              <h2>{project.title}</h2>
+            </a>
+            <p>{project.description}</p>
+          </div>
         </div>
-      </div>
-    ))}
-  </div>
+      ))}
+    </div>
+    <Technologies/>
+  </React.Fragment>
 );
 
 export default Projects;
