@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Resume = () => (
   <div className="resume">
@@ -8,6 +8,9 @@ const Resume = () => (
       width="800px"
       height="1100px"
     />
+    <a href="./Dean_Mayne_Resume.pdf" className="resume__button">
+      Download
+    </a>
   </div>
 );
 

@@ -36,8 +36,20 @@ h4 {
   font-family: $header-font;
 }
 
-.resume{
-display: flex;
-    justify-content: center;
+.resume {
+  display: grid;
+  justify-items: center;
+  row-gap: 18px;
+
+  a{
+
+    background-color: $primary-color;
+    border-radius: 8px;
+    font-weight: 700;
+    color:white;
+    padding: 20px;
+
+  }
+
 
 }
