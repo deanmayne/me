@@ -8,6 +8,7 @@ const Navbar = () => (
       <h1>Dean Mayne</h1>
     </Link>
     <div className="navbar__left">
+      <Link to="/resume">Resume</Link>
       <Link to="/projects">Projects</Link>
       <a href="http://www.github.com/deanmayne" target="_blank">
         Github
