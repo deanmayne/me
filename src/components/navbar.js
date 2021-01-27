@@ -12,6 +12,9 @@ const Navbar = () => (
       <a href="http://www.github.com/deanmayne" target="_blank">
         Github
       </a>
+      <a href="http://www.linkedin.com/in/deanmayne" target="_blank">
+        LinkedIn
+      </a>
       <a href="http://www.angel.co/u/deanmayne" target="_blank">
         AngelList
       </a>
