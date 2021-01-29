@@ -14,7 +14,7 @@ const ProfileSection = () => (
         <p className="profile__bio--text">
           I am a newly minted <span>Software Engineer</span> who spent a lot of
           time in my past life working in the fashion industry. Now I'm on the
-          hunt for a <span>backend</span> or <span>full-stack</span> job !
+          hunt for a <span>software engineering</span> job !
         </p>{" "}
         <p className="profile__bio--text">
           Technologies and skills I have in my toolbelt include{" "}
