@@ -25,6 +25,7 @@ const ProfileSection = () => (
           <a href="http://www.github.com/deanmayne">Github</a>, along with my
           past and current <Link to="/projects">projects</Link> !
         </p>
+        <p className="profile__bio--text">Ask me about my non-profit work !</p>
       </div>
     </div>
 
