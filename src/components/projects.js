@@ -3,6 +3,13 @@ import Technologies from "./technologies";
 
 const PROJECTS = [
   {
+    title: "Reclaim Foundation Frontend",
+    url: "",
+    description:
+      "React + React Context application based on Figma designs for a newly founded non-profit.",
+    img_url: "../../images/comingsoon.jpg",
+  },
+  {
     title: "Marché aux Puces",
     url: "http://marcheauxpuces.herokuapp.com",
     description:
