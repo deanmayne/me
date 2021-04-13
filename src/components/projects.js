@@ -4,7 +4,7 @@ import Technologies from "./technologies";
 const PROJECTS = [
   {
     title: "Reclaim Foundation Frontend",
-    url: "",
+    url: "https://www.reclaimfoundation.org/reclaim-foundation-portal",
     description:
       "React + React Context application based on Figma designs for a newly founded non-profit.",
     img_url: "../../images/comingsoon.jpg",
