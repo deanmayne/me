@@ -2,7 +2,9 @@ import React from "react";
 
 const Technologies = () => (
   <React.Fragment>
-    <h2 className="tech-header">Technologies I use ! And the list is always growing !</h2>
+    <h2 className="tech-header">
+      Technologies I use ! And the list is always growing !
+    </h2>
     <div className="tech-grid">
       <i class="devicon-react-original-wordmark colored"></i>
       <i class="devicon-redux-original colored"></i>
@@ -24,6 +26,7 @@ const Technologies = () => (
       <i class="devicon-html5-plain-wordmark colored"></i>
       <i class="devicon-css3-plain-wordmark colored"></i>
       <i class="devicon-webpack-plain-wordmark colored"></i>
+      <i class="devicon-materialui-plain colored"></i>
     </div>
   </React.Fragment>
 );
