@@ -5,6 +5,10 @@
     width: fit-content;
     color: $secondary-color;
     margin: auto;
+
+    @media (max-width: 425px){
+        max-width: 75vw;
+    }
 }
 
 .tech-grid{
@@ -17,10 +21,29 @@
     max-width: 1080px;
     margin: auto;
 
+    @media (max-width: 1024px){
+        max-width: 75vw;
+    }
+
+    @media (max-width: 425px){
+        max-width: 75vw;
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    }
+    @media (max-width: 320px){
+        grid-template-columns: repeat(auto-fill, minmax(25px, 1fr));
+    }
+
 
     i{
         font-size: 100px;
         margin-left: 100px;
         margin-right: 100px;
+
+        @media (max-width: 425px){
+            font-size: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
     }
 }

@@ -7,7 +7,7 @@ const Navbar = () => (
     <Link to="/">
       <h1>Dean Mayne</h1>
     </Link>
-    <div className="navbar__left">
+    <div className="navbar__right">
       <Link to="/resume">Resume</Link>
       <Link to="/projects">Projects</Link>
       <a href="http://www.github.com/deanmayne" target="_blank">
