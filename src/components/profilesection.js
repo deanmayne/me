@@ -11,7 +11,11 @@ const ProfileSection = () => (
       <p className="profile__bio--text">
         I am a <span>Software Engineer</span> who spent a lot of time in my past
         life working in the fashion industry. Now I work at a telemedicine
-        company as a <span>Full Stack Software Engineer</span> !
+        company,{" "}
+        <a style={{ color: "palevioletred" }} href="http://helloalpha.com">
+          Alpha Medical
+        </a>
+        , as a <span>Full Stack Software Engineer</span> !
       </p>{" "}
       <p className="profile__bio--text">
         Technologies and skills I have in my toolbelt include{" "}
